@@ -19,11 +19,11 @@ pip install opencv-python
 - The images will be analysed, one after the other:
   - Automatic detected Spheroid will be displayed
   - Accept (ENTER) or Start manuel drawing (M)
-  - For manuel drawing a new window opends. Left klick to ad point, richt lick to remove, ENTER when finished.
+  - For manuel drawing a new window opends. Left klick to ad point, right click to remove to last one, ENTER when finished.
 
 ### Analysis
 A adapeted script from https://github.com/DaRoemer/Spheroid is added (Spheroid_fct.py). This funcions enable one to a fast analysis of the data. Mainly it helps to find the most **repressentativ** Spheroid in a experiment with multiple replicates over multiple days.
 
 
-I hope this helps. Fell free to adapt the code and use whatever you want. The goal of this project was mainly to get used with cv2 while solving a real problem.
+I hope this helps. Fell free to adapt the code and use whatever you want. The goal of this project was mainly to get used with cv2 while solving a present lab problem.
 Have fun :v:
